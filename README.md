@@ -4,9 +4,9 @@ Implementing Markowitz portfolio optimization with [pyportfolioopt](https://pypo
 
 Instructions:
 
-Run 'pip install -r requirements.txt'
+1. Run 'pip install -r requirements.txt'
 
-Run 'Python backtest.py'
+2. Run 'Python backtest.py'
 
 Price data of the tickers will be downloaded as csv files.
 
