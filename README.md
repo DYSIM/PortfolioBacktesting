@@ -3,7 +3,9 @@
 Implementing Markowitz portfolio optimization with [pyportfolioopt](https://pyportfolioopt.readthedocs.io/en/latest/), backtest a strategy to rebalance the tangency portfolio (max sharpe) every half a month.
 
 Instructions:
+
 Run 'pip install -r requirements.txt'
+
 Run 'Python backtest.py'
 
 Price data of the tickers will be downloaded as csv files.
