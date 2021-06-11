@@ -3,6 +3,7 @@
 Implementing Markowitz portfolio optimization with [pyportfolioopt](https://pyportfolioopt.readthedocs.io/en/latest/), backtest a strategy to rebalance the tangency portfolio (max sharpe) every half a month.
 
 Instructions:
+Run 'pip install -r requirements.txt'
 Run 'Python backtest.py'
 
 Price data of the tickers will be downloaded as csv files.
@@ -27,7 +28,7 @@ The most optimal portfolio in terms of risk and reward is not the minimum varian
 ![alt text](https://a.c-dn.net/c/content/dam/publicsites/igcom/uk/images/ContentImage/Sharpe%20ratio.png)
 
 
-To locate this portfolio, we require the Capital Market Line as well, as the point where CML is tangent to efficient frontier is the tangency portfolio. The sharpe ratio is actually the the slope of the CML
+To locate this portfolio, we require the Capital Market Line as well, as the point where CML is tangent to efficient frontier is the tangency portfolio. The sharpe ratio is actually the the slope of the CML.
 
 ![alt text](https://cdn.wallstreetmojo.com/wp-content/uploads/2019/10/Capital-Market-Line.png.webp)
 
@@ -35,4 +36,4 @@ Using the Capital Market Line, an optimization problem can be stated and solved 
 
 
 
-*Image found on google images*
+*ALL images found on google*
